@@ -1,0 +1,62 @@
+body {
+    background-image: url('../img/background.svg');
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #1e0c20;
+}
+
+a {
+    text-decoration: none;
+    color: #294465;
+}
+
+#splash-box {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    height: 200px;
+    width: 520px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 12px;
+}
+
+#splash-box h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 4px;
+}
+
+#splash-box p {
+    margin-top: 0;
+}
+
+#links .link:not(:first-child)::before {
+    content: '|';
+}
+
+.link {
+    display: inline-block;
+}
+
+.link {
+    line-height: 1.2em;
+}
+
+.link a img {
+    vertical-align: middle;
+    margin-right: 0.25em;
+}
+
+.link a span {
+    vertical-align: middle;
+}
